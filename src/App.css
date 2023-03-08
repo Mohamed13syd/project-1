@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.change-theme {
+	background-color: orange;
+	border: none;
+	border-radius: 5px
+}
+.undo-button{
+	background-color: #620500a3;
+	color: #17110473;
+	border-radius: 5px;
+	border: none
+
+}
+
+.squares-container{
+	border-right: 3px green solid;
+	border-top: 3px green solid;
+	width:170px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto
+}
+.square{
+	border-left: 3px green solid;
+	border-bottom: 3px green solid;
+	width: 50px;
+	height: 50px;
+}
+.dark {
+	color: white;
+	background-color: black
+}
+.light{
+	color: black;
+	background-color: white
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
